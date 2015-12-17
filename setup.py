@@ -24,7 +24,7 @@ URL below.
        platforms = ['all'],
        entry_points={
            "console_scripts":[
-                 "gerbmerge = gerbmerge.gerbmerge"
+                 "gerbmerge=gerbmerge.gerbmerge:main"
            ]
         }
 )
